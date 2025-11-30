@@ -1,0 +1,10 @@
+*.py[cod]
+.emacs.desktop
+__pycache__/
+.#*.*
+\#*#
+*.log
+env/
+playlists/*
+output/*
+*~
