@@ -31,7 +31,7 @@ for document in documents:
         documents_chunks.append(chunk)
 print("chunk size: {}", len( documents_chunks))
 
-embedding = OllamaEmbeddings(model="bge-large",  base_url="http://localhost:8080/ollama")
+embedding = OllamaEmbeddings(model="bge-large",  base_url="http://localhost:8080/")
 
 documents_chunks_str= []
 for document_chunk in documents_chunks:
